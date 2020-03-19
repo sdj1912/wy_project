@@ -5,8 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    obj: ''
   },
   mutations: {
+    saveObj(state, obj) {
+      state.obj = obj;
+    }
   },
   actions: {
   },
